@@ -1,0 +1,7 @@
+language:
+  name: "russian"
+  code: "ru"
+
+text-to-speech:
+  espeak:
+    voice: "ru"

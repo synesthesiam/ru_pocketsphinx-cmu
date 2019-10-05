@@ -1,0 +1,178 @@
+{
+  "statistics": {
+    "num_wavs": 10,
+    "num_words": 31,
+    "num_entities": 0,
+    "correct_transcriptions": 9,
+    "correct_intent_names": 0,
+    "correct_words": 30,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.967741935483871,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1
+  },
+  "actual": {
+    "как_холодно.wav": {
+      "text": "как холодно",
+      "transcribe_seconds": 0.04606747627258301,
+      "wav_seconds": 0.901625,
+      "likelihood": 0.4966940115215453,
+      "word_error": {
+        "expected": "как холодно",
+        "actual": "как холодно",
+        "words": 2,
+        "correct": 2,
+        "errors": 0
+      }
+    },
+    "выключить_лампу_в_гостиной.wav": {
+      "text": "выключить лампу в гостиной",
+      "transcribe_seconds": 0.07003498077392578,
+      "wav_seconds": 1.7734375,
+      "likelihood": 0.3022083177464348,
+      "word_error": {
+        "expected": "выключить лампу в  гостиной",
+        "actual": "выключить лампу в  гостиной",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "включить_лампу_в_гостиной.wav": {
+      "text": "включить лампу в гостиной",
+      "transcribe_seconds": 0.07091450691223145,
+      "wav_seconds": 1.7756875,
+      "likelihood": 0.3231201801839622,
+      "word_error": {
+        "expected": "включить лампу в  гостиной",
+        "actual": "включить лампу в  гостиной",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "дверь_гаража_закрыта.wav": {
+      "text": "дверь гаража закрыта",
+      "transcribe_seconds": 0.06210732460021973,
+      "wav_seconds": 1.4755625,
+      "likelihood": 0.6324506369759406,
+      "word_error": {
+        "expected": "дверь гаража закрыта",
+        "actual": "дверь гаража закрыта",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "который_сейчас_час.wav": {
+      "text": "который сейчас час",
+      "transcribe_seconds": 0.06500363349914551,
+      "wav_seconds": 1.3988125,
+      "likelihood": 0.3780560742846459,
+      "word_error": {
+        "expected": "который сейчас час",
+        "actual": "который сейчас час",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "как_жарко.wav": {
+      "text": "как жарко",
+      "transcribe_seconds": 0.03732943534851074,
+      "wav_seconds": 0.8564375,
+      "likelihood": 0.8359213293683531,
+      "word_error": {
+        "expected": "как жарко",
+        "actual": "как жарко",
+        "words": 2,
+        "correct": 2,
+        "errors": 0
+      }
+    },
+    "какая_температура.wav": {
+      "text": "какая температура",
+      "transcribe_seconds": 0.0544285774230957,
+      "wav_seconds": 1.3096875,
+      "likelihood": 0.4870524869531371,
+      "word_error": {
+        "expected": "какая температура",
+        "actual": "какая температура",
+        "words": 2,
+        "correct": 2,
+        "errors": 0
+      }
+    },
+    "выключить_свет_в_гараже.wav": {
+      "text": "выключить свет в гараже",
+      "transcribe_seconds": 0.06834125518798828,
+      "wav_seconds": 1.6661875,
+      "likelihood": 0.08754675243595485,
+      "word_error": {
+        "expected": "выключить свет в  гараже",
+        "actual": "выключить свет в  гараже",
+        "words": 4,
+        "correct": 4,
+        "errors": 0
+      }
+    },
+    "дверь_гаража_открыта.wav": {
+      "text": "дверь гаража открыта",
+      "transcribe_seconds": 0.06916642189025879,
+      "wav_seconds": 1.463625,
+      "likelihood": 0.5985414539793036,
+      "word_error": {
+        "expected": "дверь гаража открыта",
+        "actual": "дверь гаража открыта",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "включить_свет_в_гараже.wav": {
+      "text": "включить свет гараже",
+      "transcribe_seconds": 0.07323837280273438,
+      "wav_seconds": 1.6334375,
+      "likelihood": 0.46237019828430165,
+      "word_error": {
+        "expected": "включить свет в  гараже",
+        "actual": "включить свет *** гараже",
+        "words": 4,
+        "correct": 3,
+        "errors": 1
+      }
+    }
+  },
+  "expected": {
+    "как_холодно.wav": {
+      "text": "как холодно"
+    },
+    "выключить_лампу_в_гостиной.wav": {
+      "text": "выключить лампу в гостиной"
+    },
+    "включить_лампу_в_гостиной.wav": {
+      "text": "включить лампу в гостиной"
+    },
+    "дверь_гаража_закрыта.wav": {
+      "text": "дверь гаража закрыта"
+    },
+    "который_сейчас_час.wav": {
+      "text": "который сейчас час"
+    },
+    "как_жарко.wav": {
+      "text": "как жарко"
+    },
+    "какая_температура.wav": {
+      "text": "какая температура"
+    },
+    "выключить_свет_в_гараже.wav": {
+      "text": "выключить свет в гараже"
+    },
+    "дверь_гаража_открыта.wav": {
+      "text": "дверь гаража открыта"
+    },
+    "включить_свет_в_гараже.wav": {
+      "text": "включить свет в гараже"
+    }
+  }
+}

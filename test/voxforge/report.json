@@ -9,12 +9,22 @@
     "correct_entities": 0,
     "transcription_accuracy": 0.6888888888888889,
     "intent_accuracy": 1,
-    "entity_accuracy": 1
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 1,
+    "average_transcription_speedup": 1.5979422832531511
   },
   "actual": {
     "ru_0022.wav": {
       "text": "над этой машиной он ткнул трубкой в сторону лесов работы давно",
-      "transcribe_seconds": 4.900697469711304,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00026035308837890625,
+      "transcribe_seconds": 4.839949607849121,
       "wav_seconds": 7.5,
       "likelihood": 0.0007834298868119859,
       "word_error": {
@@ -27,7 +37,15 @@
     },
     "ru_0032.wav": {
       "text": "через оскорблять тебя шестеро марс будет не более сложно чем перелёт из москвы в берлин",
-      "transcribe_seconds": 7.2640368938446045,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0001583099365234375,
+      "transcribe_seconds": 6.80414891242981,
       "wav_seconds": 9.375,
       "likelihood": 1.0327373513106188e-06,
       "word_error": {
@@ -40,7 +58,15 @@
     },
     "ru_0025.wav": {
       "text": "между зубами луне вдова провал стаде паслись там где теперь льды",
-      "transcribe_seconds": 4.773739814758301,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.3365020751953125e-05,
+      "transcribe_seconds": 4.214102506637573,
       "wav_seconds": 7.5,
       "likelihood": 2.0322178857501734e-08,
       "word_error": {
@@ -53,7 +79,15 @@
     },
     "ru_0034.wav": {
       "text": "его окружала двойная пассивны стали круглую спираль свёрнутая в противоположные стороны олфер",
-      "transcribe_seconds": 6.261550426483154,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00015664100646972656,
+      "transcribe_seconds": 5.505698919296265,
       "wav_seconds": 10.25,
       "likelihood": 2.4540742802078085e-08,
       "word_error": {
@@ -66,7 +100,15 @@
     },
     "ru_0027.wav": {
       "text": "вы втянули его йому по разбросаны кору откроют полюса",
-      "transcribe_seconds": 6.200942039489746,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.384185791015625e-05,
+      "transcribe_seconds": 5.109745264053345,
       "wav_seconds": 8.875,
       "likelihood": 1.8216824393102177e-05,
       "word_error": {
@@ -79,7 +121,15 @@
     },
     "ru_0030.wav": {
       "text": "быть может от этого именно удара будет материк лежавшим на запад от африки патологическому тебя",
-      "transcribe_seconds": 8.590550184249878,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.574920654296875e-05,
+      "transcribe_seconds": 7.66725754737854,
       "wav_seconds": 10.75,
       "likelihood": 4.1701686959664066e-05,
       "word_error": {
@@ -92,7 +142,15 @@
     },
     "ru_0031.wav": {
       "text": "поэтому я кладу на весь перелёт безвоздушном пространстве шефер честно",
-      "transcribe_seconds": 4.0959858894348145,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.574920654296875e-05,
+      "transcribe_seconds": 3.950369119644165,
       "wav_seconds": 7.875,
       "likelihood": 0.0029028067345390684,
       "word_error": {
@@ -105,7 +163,15 @@
     },
     "ru_0024.wav": {
       "text": "вмер звёздном пространстве носятся осколки водят нерождённых или против шекспиру",
-      "transcribe_seconds": 7.398178815841675,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.86102294921875e-05,
+      "transcribe_seconds": 7.2451231479644775,
       "wav_seconds": 8.375,
       "likelihood": 1.0842628431289556e-05,
       "word_error": {
@@ -118,7 +184,15 @@
     },
     "ru_0035.wav": {
       "text": "аппарат был построен из мягкой и туго плавко стали внутри хорошо укреплён рёбрами и лёгкими фермы",
-      "transcribe_seconds": 7.090890645980835,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.6464462280273438e-05,
+      "transcribe_seconds": 6.159255266189575,
       "wav_seconds": 9.375,
       "likelihood": 0.0004915814038087759,
       "word_error": {
@@ -131,7 +205,15 @@
     },
     "ru_0033.wav": {
       "text": "на глаз в столь сопредельную что это собрал свой аппарат был не менее восьми стройно метров высоты и шести метров в поперечнике",
-      "transcribe_seconds": 7.827194452285767,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00016164779663085938,
+      "transcribe_seconds": 7.109103202819824,
       "wav_seconds": 11.375,
       "likelihood": 3.1156882050328643e-12,
       "word_error": {

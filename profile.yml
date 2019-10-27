@@ -5,6 +5,8 @@ language:
 text-to-speech:
   espeak:
     voice: "ru"
+  marytts:
+    voice: "ac-irina-hsmm"
 
 speech-to-text:
   acoustic-model-type: "pocketsphinx"

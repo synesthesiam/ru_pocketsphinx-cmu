@@ -1,39 +1,48 @@
-a0 а a0
-a1 я j a1
-b бы b y1
-bj себя sj e0 bj a1
-ch чем ch o1 m
-d да d a1
-dj где g dj e1
-e0 её j e0 j o1
-e1 не nj e1
-g его j e0 g o1
-i0 и i0
-i1 из i1 z
-j ему j e0 m u1
-k к k
-l был b y1 l
-lj ли lj i1
-m мы m y1
-mj меня mj e0 nj a1
-n на n a1
-nj ни nj i1
-o0 о o0
-o1 во v o1
-p по p o1
-pj теперь tj e0 pj e1 rj
-r раз r a1 z
-rj время v rj e1 mj a0
-s с s
-sch ещё j e0 sch o1
-sh что sh t o1
-sj все v sj o1
-t от o1 t
+a0 алло a0 l l o1
+a1 банк b a1 n k
+b базе b a1 zj e0
+bj бери bj e0 rj i1
+c лицо lj i0 c o1
+ch врач v r a1 ch
+d буду b u1 d u0
+dj будь b u1 dj
+e0 ваше v a1 sh e0
+e1 ведь vj e1 dj
+f факт f a1 k t
+fj кафе k a0 fj e1
+g бога b o1 g a0
+gj агент a0 gj e1 n t
+h двух d v u1 h
+hj слухи s l u1 hj i0
+i0 ваши v a1 sh i0
+i1 билл bj i1 l l
+j всей v sj e1 j
+k вкус v k u1 s
+kj веке vj e1 kj e0
+l была b y0 l a1
+lj блин b lj i1 n
+m всём v sj o1 m
+mj доме d o1 mj e0
+n анна a1 n n a0
+nj вниз v nj i1 z
+o0 дело dj e1 l o0
+o1 боже b o1 zh e0
+p опыт o1 p y0 t
+pj петь pj e1 tj
+r брак b r a1 k
+rj вряд v rj a1 d
+s босс b o1 s s
+sch вещи vj e1 sch i0
+sh ваша v a1 sh a0
+sj весь vj e1 sj
+t брат b r a1 t
 tj быть b y1 tj
-u0 у u0
-u1 ну n u1
-v в v
-y0 была b y0 l a1
-y1 вы v y1
-z за z a1
-zh же zh e0
+u0 богу b o1 g u0
+u1 беру bj e0 r u1
+v вами v a1 mj i0
+vj вещь vj e1 sch
+y0 виды vj i1 d y0
+y1 выше v y1 sh e0
+z глаз g l a1 z
+zh вижу vj i1 zh u0
+zj взял v zj a1 l

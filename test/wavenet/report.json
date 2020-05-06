@@ -1,27 +1,146 @@
 {
-  "statistics": {
-    "num_wavs": 10,
-    "num_words": 31,
-    "num_entities": 0,
-    "correct_transcriptions": 10,
-    "correct_intent_names": 0,
-    "correct_words": 31,
-    "correct_entities": 0,
-    "transcription_accuracy": 1,
-    "intent_accuracy": 1,
-    "entity_accuracy": 1,
-    "intent_entity_accuracy": 1,
-    "average_transcription_speedup": 21.88014183484701
+  "expected": {
+    "как_холодно.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "как холодно",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "дверь_гаража_открыта.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "дверь гаража открыта",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "включить_свет_в_гараже.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "включить свет в гараже",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "который_сейчас_час.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "который сейчас час",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "дверь_гаража_закрыта.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "дверь гаража закрыта",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "как_жарко.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "как жарко",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "выключить_лампу_в_гостиной.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "выключить лампу в гостиной",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "выключить_свет_в_гараже.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "выключить свет в гараже",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "включить_лампу_в_гостиной.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "включить лампу в гостиной",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "какая_температура.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "какая температура",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    }
   },
   "actual": {
     "как_холодно.wav": {
-      "text": "как холодно",
       "intent": {
         "name": "GetTemperature",
         "confidence": 1
       },
       "entities": [],
+      "text": "как холодно",
       "raw_text": "как холодно",
+      "recognize_seconds": 0.0014581340001313947,
       "tokens": [
         "как",
         "холодно"
@@ -30,78 +149,87 @@
         "как",
         "холодно"
       ],
-      "slots": {},
-      "intents": [],
-      "recognize_seconds": 0.0003960132598876953,
-      "transcribe_seconds": 0.047673702239990234,
       "wav_seconds": 0.901625,
-      "likelihood": 0.6089266271926007,
+      "transcribe_seconds": 0.07820082699981867,
+      "speech_confidence": null,
+      "wav_name": "как_холодно.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "как холодно",
-        "actual": "как холодно",
+        "reference": [
+          "как",
+          "холодно"
+        ],
+        "hypothesis": [
+          "как",
+          "холодно"
+        ],
+        "differences": [
+          "как",
+          "холодно"
+        ],
         "words": 2,
-        "correct": 2,
-        "errors": 0
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
-    "выключить_лампу_в_гостиной.wav": {
-      "text": "выключить лампу в гостиной",
+    "дверь_гаража_открыта.wav": {
       "intent": {
-        "name": "ChangeLightState",
+        "name": "GetGarageState",
         "confidence": 1
       },
-      "entities": [
-        {
-          "entity": "state",
-          "value": "выключить",
-          "raw_value": "выключить",
-          "start": 0,
-          "raw_start": 0,
-          "end": 9,
-          "raw_end": 9
-        },
-        {
-          "entity": "name",
-          "value": "лампу в гостиной",
-          "raw_value": "лампу в гостиной",
-          "start": 10,
-          "raw_start": 10,
-          "end": 26,
-          "raw_end": 26
-        }
-      ],
-      "raw_text": "выключить лампу в гостиной",
+      "entities": [],
+      "text": "дверь гаража открыта",
+      "raw_text": "дверь гаража открыта",
+      "recognize_seconds": 0.000995640002656728,
       "tokens": [
-        "выключить",
-        "лампу",
-        "в",
-        "гостиной"
+        "дверь",
+        "гаража",
+        "открыта"
       ],
       "raw_tokens": [
-        "выключить",
-        "лампу",
-        "в",
-        "гостиной"
+        "дверь",
+        "гаража",
+        "открыта"
       ],
-      "slots": {
-        "state": "выключить",
-        "name": "лампу в гостиной"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00032210350036621094,
-      "transcribe_seconds": 0.06685233116149902,
-      "wav_seconds": 1.7734375,
-      "likelihood": 0.28629143681899877,
+      "wav_seconds": 1.463625,
+      "transcribe_seconds": 0.0884057470029802,
+      "speech_confidence": null,
+      "wav_name": "дверь_гаража_открыта.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "выключить лампу в  гостиной",
-        "actual": "выключить лампу в  гостиной",
-        "words": 4,
-        "correct": 4,
-        "errors": 0
+        "reference": [
+          "дверь",
+          "гаража",
+          "открыта"
+        ],
+        "hypothesis": [
+          "дверь",
+          "гаража",
+          "открыта"
+        ],
+        "differences": [
+          "дверь",
+          "гаража",
+          "открыта"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
-    "включить_лампу_в_гостиной.wav": {
-      "text": "включить лампу в гостиной",
+    "включить_свет_в_гараже.wav": {
       "intent": {
         "name": "ChangeLightState",
         "confidence": 1
@@ -110,92 +238,87 @@
         {
           "entity": "state",
           "value": "включить",
-          "raw_value": "включить",
+          "raw_value": "",
+          "source": "",
           "start": 0,
           "raw_start": 0,
-          "end": 8,
-          "raw_end": 8
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         },
         {
           "entity": "name",
-          "value": "лампу в гостиной",
-          "raw_value": "лампу в гостиной",
-          "start": 9,
-          "raw_start": 9,
-          "end": 25,
-          "raw_end": 25
+          "value": "свет в гараже",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         }
       ],
-      "raw_text": "включить лампу в гостиной",
+      "text": "включить свет в гараже",
+      "raw_text": "включить свет в гараже",
+      "recognize_seconds": 0.002135529000952374,
       "tokens": [
         "включить",
-        "лампу",
+        "свет",
         "в",
-        "гостиной"
+        "гараже"
       ],
       "raw_tokens": [
         "включить",
-        "лампу",
+        "свет",
         "в",
-        "гостиной"
+        "гараже"
       ],
-      "slots": {
-        "state": "включить",
-        "name": "лампу в гостиной"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00031495094299316406,
-      "transcribe_seconds": 0.07106995582580566,
-      "wav_seconds": 1.7756875,
-      "likelihood": 0.3380282788292886,
+      "wav_seconds": 1.6334375,
+      "transcribe_seconds": 0.09892214800129295,
+      "speech_confidence": null,
+      "wav_name": "включить_свет_в_гараже.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "включить лампу в  гостиной",
-        "actual": "включить лампу в  гостиной",
+        "reference": [
+          "включить",
+          "свет",
+          "в",
+          "гараже"
+        ],
+        "hypothesis": [
+          "включить",
+          "свет",
+          "в",
+          "гараже"
+        ],
+        "differences": [
+          "включить",
+          "свет",
+          "в",
+          "гараже"
+        ],
         "words": 4,
-        "correct": 4,
-        "errors": 0
-      }
-    },
-    "дверь_гаража_закрыта.wav": {
-      "text": "дверь гаража закрыта",
-      "intent": {
-        "name": "GetGarageState",
-        "confidence": 1
-      },
-      "entities": [],
-      "raw_text": "дверь гаража закрыта",
-      "tokens": [
-        "дверь",
-        "гаража",
-        "закрыта"
-      ],
-      "raw_tokens": [
-        "дверь",
-        "гаража",
-        "закрыта"
-      ],
-      "slots": {},
-      "intents": [],
-      "recognize_seconds": 0.000270843505859375,
-      "transcribe_seconds": 0.0632021427154541,
-      "wav_seconds": 1.4755625,
-      "likelihood": 0.6141251685981926,
-      "word_error": {
-        "expected": "дверь гаража закрыта",
-        "actual": "дверь гаража закрыта",
-        "words": 3,
-        "correct": 3,
-        "errors": 0
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
     "который_сейчас_час.wav": {
-      "text": "который сейчас час",
       "intent": {
         "name": "GetTime",
         "confidence": 1
       },
       "entities": [],
+      "text": "который сейчас час",
       "raw_text": "который сейчас час",
+      "recognize_seconds": 0.0015634110022801906,
       "tokens": [
         "который",
         "сейчас",
@@ -206,28 +329,98 @@
         "сейчас",
         "час"
       ],
-      "slots": {},
-      "intents": [],
-      "recognize_seconds": 0.0002560615539550781,
-      "transcribe_seconds": 0.0632469654083252,
       "wav_seconds": 1.3988125,
-      "likelihood": 0.38731771867392994,
+      "transcribe_seconds": 0.0830835400010983,
+      "speech_confidence": null,
+      "wav_name": "который_сейчас_час.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "который сейчас час",
-        "actual": "который сейчас час",
+        "reference": [
+          "который",
+          "сейчас",
+          "час"
+        ],
+        "hypothesis": [
+          "который",
+          "сейчас",
+          "час"
+        ],
+        "differences": [
+          "который",
+          "сейчас",
+          "час"
+        ],
         "words": 3,
-        "correct": 3,
-        "errors": 0
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "дверь_гаража_закрыта.wav": {
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "дверь гаража закрыта",
+      "raw_text": "дверь гаража закрыта",
+      "recognize_seconds": 0.0017260900021938141,
+      "tokens": [
+        "дверь",
+        "гаража",
+        "закрыта"
+      ],
+      "raw_tokens": [
+        "дверь",
+        "гаража",
+        "закрыта"
+      ],
+      "wav_seconds": 1.4755625,
+      "transcribe_seconds": 0.08346809100112296,
+      "speech_confidence": null,
+      "wav_name": "дверь_гаража_закрыта.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "дверь",
+          "гаража",
+          "закрыта"
+        ],
+        "hypothesis": [
+          "дверь",
+          "гаража",
+          "закрыта"
+        ],
+        "differences": [
+          "дверь",
+          "гаража",
+          "закрыта"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
     "как_жарко.wav": {
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
       "text": "как жарко",
-      "intent": {
-        "name": "GetTemperature",
-        "confidence": 1
-      },
-      "entities": [],
       "raw_text": "как жарко",
+      "recognize_seconds": 0.0019193369989807252,
       "tokens": [
         "как",
         "жарко"
@@ -236,52 +429,36 @@
         "как",
         "жарко"
       ],
-      "slots": {},
-      "intents": [],
-      "recognize_seconds": 0.00025844573974609375,
-      "transcribe_seconds": 0.03761482238769531,
       "wav_seconds": 0.8564375,
-      "likelihood": 0.8366740845076107,
+      "transcribe_seconds": 0.06205919100102619,
+      "speech_confidence": null,
+      "wav_name": "как_жарко.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "как жарко",
-        "actual": "как жарко",
+        "reference": [
+          "как",
+          "жарко"
+        ],
+        "hypothesis": [
+          "как",
+          "жарко"
+        ],
+        "differences": [
+          "как",
+          "жарко"
+        ],
         "words": 2,
-        "correct": 2,
-        "errors": 0
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
-    "какая_температура.wav": {
-      "text": "какая температура",
-      "intent": {
-        "name": "GetTemperature",
-        "confidence": 1
-      },
-      "entities": [],
-      "raw_text": "какая температура",
-      "tokens": [
-        "какая",
-        "температура"
-      ],
-      "raw_tokens": [
-        "какая",
-        "температура"
-      ],
-      "slots": {},
-      "intents": [],
-      "recognize_seconds": 0.0002460479736328125,
-      "transcribe_seconds": 0.05665397644042969,
-      "wav_seconds": 1.3096875,
-      "likelihood": 0.49224330773777586,
-      "word_error": {
-        "expected": "какая температура",
-        "actual": "какая температура",
-        "words": 2,
-        "correct": 2,
-        "errors": 0
-      }
-    },
-    "выключить_свет_в_гараже.wav": {
-      "text": "выключить свет в гараже",
+    "выключить_лампу_в_гостиной.wav": {
       "intent": {
         "name": "ChangeLightState",
         "confidence": 1
@@ -290,23 +467,112 @@
         {
           "entity": "state",
           "value": "выключить",
-          "raw_value": "выключить",
+          "raw_value": "",
+          "source": "",
           "start": 0,
           "raw_start": 0,
-          "end": 9,
-          "raw_end": 9
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "лампу в гостиной",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "выключить лампу в гостиной",
+      "raw_text": "выключить лампу в гостиной",
+      "recognize_seconds": 0.0022707930002070498,
+      "tokens": [
+        "выключить",
+        "лампу",
+        "в",
+        "гостиной"
+      ],
+      "raw_tokens": [
+        "выключить",
+        "лампу",
+        "в",
+        "гостиной"
+      ],
+      "wav_seconds": 1.7734375,
+      "transcribe_seconds": 0.08675385700189508,
+      "speech_confidence": null,
+      "wav_name": "выключить_лампу_в_гостиной.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "выключить",
+          "лампу",
+          "в",
+          "гостиной"
+        ],
+        "hypothesis": [
+          "выключить",
+          "лампу",
+          "в",
+          "гостиной"
+        ],
+        "differences": [
+          "выключить",
+          "лампу",
+          "в",
+          "гостиной"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "выключить_свет_в_гараже.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "выключить",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         },
         {
           "entity": "name",
           "value": "свет в гараже",
-          "raw_value": "свет в гараже",
-          "start": 10,
-          "raw_start": 10,
-          "end": 23,
-          "raw_end": 23
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         }
       ],
+      "text": "выключить свет в гараже",
       "raw_text": "выключить свет в гараже",
+      "recognize_seconds": 0.0017413770001439843,
       "tokens": [
         "выключить",
         "свет",
@@ -319,57 +585,42 @@
         "в",
         "гараже"
       ],
-      "slots": {
-        "state": "выключить",
-        "name": "свет в гараже"
-      },
-      "intents": [],
-      "recognize_seconds": 0.0003120899200439453,
-      "transcribe_seconds": 0.06894207000732422,
       "wav_seconds": 1.6661875,
-      "likelihood": 0.08322660749827845,
+      "transcribe_seconds": 0.09730574899731437,
+      "speech_confidence": null,
+      "wav_name": "выключить_свет_в_гараже.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "выключить свет в  гараже",
-        "actual": "выключить свет в  гараже",
+        "reference": [
+          "выключить",
+          "свет",
+          "в",
+          "гараже"
+        ],
+        "hypothesis": [
+          "выключить",
+          "свет",
+          "в",
+          "гараже"
+        ],
+        "differences": [
+          "выключить",
+          "свет",
+          "в",
+          "гараже"
+        ],
         "words": 4,
-        "correct": 4,
-        "errors": 0
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     },
-    "дверь_гаража_открыта.wav": {
-      "text": "дверь гаража открыта",
-      "intent": {
-        "name": "GetGarageState",
-        "confidence": 1
-      },
-      "entities": [],
-      "raw_text": "дверь гаража открыта",
-      "tokens": [
-        "дверь",
-        "гаража",
-        "открыта"
-      ],
-      "raw_tokens": [
-        "дверь",
-        "гаража",
-        "открыта"
-      ],
-      "slots": {},
-      "intents": [],
-      "recognize_seconds": 0.0002694129943847656,
-      "transcribe_seconds": 0.0951690673828125,
-      "wav_seconds": 1.463625,
-      "likelihood": 0.6094140199204231,
-      "word_error": {
-        "expected": "дверь гаража открыта",
-        "actual": "дверь гаража открыта",
-        "words": 3,
-        "correct": 3,
-        "errors": 0
-      }
-    },
-    "включить_свет_в_гараже.wav": {
-      "text": "включить свет в гараже",
+    "включить_лампу_в_гостиной.wav": {
       "intent": {
         "name": "ChangeLightState",
         "confidence": 1
@@ -378,83 +629,137 @@
         {
           "entity": "state",
           "value": "включить",
-          "raw_value": "включить",
+          "raw_value": "",
+          "source": "",
           "start": 0,
           "raw_start": 0,
-          "end": 8,
-          "raw_end": 8
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         },
         {
           "entity": "name",
-          "value": "свет в гараже",
-          "raw_value": "свет в гараже",
-          "start": 9,
-          "raw_start": 9,
-          "end": 22,
-          "raw_end": 22
+          "value": "лампу в гостиной",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
         }
       ],
-      "raw_text": "включить свет в гараже",
+      "text": "включить лампу в гостиной",
+      "raw_text": "включить лампу в гостиной",
+      "recognize_seconds": 0.00145258800330339,
       "tokens": [
         "включить",
-        "свет",
+        "лампу",
         "в",
-        "гараже"
+        "гостиной"
       ],
       "raw_tokens": [
         "включить",
-        "свет",
+        "лампу",
         "в",
-        "гараже"
+        "гостиной"
       ],
-      "slots": {
-        "state": "включить",
-        "name": "свет в гараже"
-      },
-      "intents": [],
-      "recognize_seconds": 0.00031065940856933594,
-      "transcribe_seconds": 0.09344720840454102,
-      "wav_seconds": 1.6334375,
-      "likelihood": 0.5999198436366262,
+      "wav_seconds": 1.7756875,
+      "transcribe_seconds": 0.08663981100107776,
+      "speech_confidence": null,
+      "wav_name": "включить_лампу_в_гостиной.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "включить свет в  гараже",
-        "actual": "включить свет в  гараже",
+        "reference": [
+          "включить",
+          "лампу",
+          "в",
+          "гостиной"
+        ],
+        "hypothesis": [
+          "включить",
+          "лампу",
+          "в",
+          "гостиной"
+        ],
+        "differences": [
+          "включить",
+          "лампу",
+          "в",
+          "гостиной"
+        ],
         "words": 4,
-        "correct": 4,
-        "errors": 0
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "какая_температура.wav": {
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "какая температура",
+      "raw_text": "какая температура",
+      "recognize_seconds": 0.0017161350006063003,
+      "tokens": [
+        "какая",
+        "температура"
+      ],
+      "raw_tokens": [
+        "какая",
+        "температура"
+      ],
+      "wav_seconds": 1.3096875,
+      "transcribe_seconds": 0.09125286099879304,
+      "speech_confidence": null,
+      "wav_name": "какая_температура.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "какая",
+          "температура"
+        ],
+        "hypothesis": [
+          "какая",
+          "температура"
+        ],
+        "differences": [
+          "какая",
+          "температура"
+        ],
+        "words": 2,
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
       }
     }
   },
-  "expected": {
-    "как_холодно.wav": {
-      "text": "как холодно"
-    },
-    "выключить_лампу_в_гостиной.wav": {
-      "text": "выключить лампу в гостиной"
-    },
-    "включить_лампу_в_гостиной.wav": {
-      "text": "включить лампу в гостиной"
-    },
-    "дверь_гаража_закрыта.wav": {
-      "text": "дверь гаража закрыта"
-    },
-    "который_сейчас_час.wav": {
-      "text": "который сейчас час"
-    },
-    "как_жарко.wav": {
-      "text": "как жарко"
-    },
-    "какая_температура.wav": {
-      "text": "какая температура"
-    },
-    "выключить_свет_в_гараже.wav": {
-      "text": "выключить свет в гараже"
-    },
-    "дверь_гаража_открыта.wav": {
-      "text": "дверь гаража открыта"
-    },
-    "включить_свет_в_гараже.wav": {
-      "text": "включить свет в гараже"
-    }
-  }
+  "num_wavs": 10,
+  "num_words": 31,
+  "num_intents": 0,
+  "num_entities": 0,
+  "correct_transcriptions": 10,
+  "correct_intent_names": 0,
+  "correct_words": 31,
+  "correct_entities": 0,
+  "correct_intent_and_entities": 0,
+  "transcription_accuracy": 1,
+  "intent_accuracy": 1,
+  "entity_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "average_transcription_speedup": 16.53251781670056
 }
